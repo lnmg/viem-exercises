@@ -4,7 +4,6 @@ import { normalize } from 'viem/ens'
 import { wagmiAbi } from './abi'
 import createViemClient from './viem/client'
 import createViemWallet from './viem/wallet'
-import config from './config'
 
 /*
   1. General chain info
