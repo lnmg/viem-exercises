@@ -1,8 +1,8 @@
 import { formatEther, getContract, Address } from 'viem'
 import { normalize } from 'viem/ens'
 import { wagmiAbi } from './abi'
-import createViemClient from './viem/client'
-import createViemWallet from './viem/wallet'
+import createViemClient from './utils/client'
+import createViemWallet from './utils/wallet'
 
 /*
   1. General chain info
