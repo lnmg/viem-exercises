@@ -1,5 +1,4 @@
 import { formatEther, getContract, Address } from 'viem'
-import { ethers } from 'ethers'
 import { normalize } from 'viem/ens'
 import { wagmiAbi } from './abi'
 import createViemClient from './viem/client'
